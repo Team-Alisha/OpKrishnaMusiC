@@ -5,11 +5,11 @@ def botplaylist_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᴩᴇʀsᴏɴᴀʟ",
+                text="• ᴩᴇʀsᴏɴᴀʟ •",
                 callback_data="get_playlist_playmode",
             ),
             InlineKeyboardButton(
-                text="ᴛᴏᴘ 10", callback_data="get_top_playlists"
+                text="• ᴛᴏᴘ 10 •", callback_data="get_top_playlists"
             ),
         ],
         [
@@ -25,17 +25,17 @@ def top_play_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ɢʟᴏʙᴀʟ ᴛᴏᴘ 10", callback_data="SERVERTOP global"
+                text="• ɢʟᴏʙᴀʟ ᴛᴏᴘ 10 •", callback_data="SERVERTOP global"
             )
         ],
         [
             InlineKeyboardButton(
-                text="ɢʀᴏᴜᴘ's ᴛᴏᴘ 10", callback_data="SERVERTOP chat"
+                text="• ɢʀᴏᴜᴘ's ᴛᴏᴘ 10 •", callback_data="SERVERTOP chat"
             )
         ],
         [
             InlineKeyboardButton(
-                text="ᴘᴇʀsᴏɴᴀʟ ᴛᴏᴘ 10", callback_data="SERVERTOP user"
+                text="• ᴘᴇʀsᴏɴᴀʟ ᴛᴏᴘ 10 •", callback_data="SERVERTOP user"
             )
         ],
         [
@@ -76,17 +76,17 @@ def top_play_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ɢʟᴏʙᴀʟ ᴛᴏᴘ 10", callback_data="SERVERTOP Global"
+                text="• ɢʟᴏʙᴀʟ ᴛᴏᴘ 10 •", callback_data="SERVERTOP Global"
             )
         ],
         [
             InlineKeyboardButton(
-                text="ɢʀᴏᴜᴘ's ᴛᴏᴘ 10", callback_data="SERVERTOP Group"
+                text="• ɢʀᴏᴜᴘ's ᴛᴏᴘ 10 •", callback_data="SERVERTOP Group"
             )
         ],
         [
             InlineKeyboardButton(
-                text="ᴘᴇʀsᴏɴᴀʟ ᴛᴏᴘ 10", callback_data="SERVERTOP Personal"
+                text="• ᴘᴇʀsᴏɴᴀʟ ᴛᴏᴘ 10 •", callback_data="SERVERTOP Personal"
             )
         ],
         [
