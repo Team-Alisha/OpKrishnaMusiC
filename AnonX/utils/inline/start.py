@@ -55,7 +55,8 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                    text="☆ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☆", url=f"{config.UPSTREAM_REPO}"
+                    text="☆ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☆", 
+                    url=f"https://telegra.ph/file/3e565bad45fc95831304d.mp4", 
                 )
         ],
      ]
