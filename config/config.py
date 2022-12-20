@@ -7,27 +7,27 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "10523650"))
+API_HASH = getenv("API_HASH", "2bb6e3366242fd58c85479d812444cae")
 
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://bot:bot@cluster0.h4ynwf5.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "90")
+    getenv("DURATION_LIMIT", "180")
 )
 
 SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001845749326"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Krishna Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹Oᴘ ✘ Kʀɪsʜɴᴀ ◍ Mᴜsɪᴄ˼")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5210727648").split())
+    map(int, getenv("OWNER_ID", "5210727648").split(5955517342))
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -103,11 +103,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/9677e957395793532d87e.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/72f453a811453df2a7d36.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/a10ce1fd38f114002586e.jpg",
+    "https://telegra.ph/file/926042741c3b361510bcd.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
